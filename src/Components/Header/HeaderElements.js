@@ -27,10 +27,23 @@ export const Wrapper = styled.div `
     }
 
     .nav-link {
-        margin-left: 30px;
+        margin-left: 25px;
         font-size: 16px;
         line-height: 30px;
         font-weight: 600;
         text-decoration: none;
+    }
+
+    .nav-button {
+        font-size: 16px;
+        color: green;
+        background-color: transparent;
+        padding: 0.5rem 1rem;
+        border: 2px solid black;
+        border-radius: 12px;
+        margin-left: 25px;
+        line-height: 20px;
+        text-decoration: none;
+        cursor: pointer;
     }
 `;

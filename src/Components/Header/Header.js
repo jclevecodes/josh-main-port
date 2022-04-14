@@ -13,7 +13,9 @@ function Header() {
                 <a href="/work" className="nav-link">Work</a>
                 <a href="/about" className="nav-link">About</a>
                 <a href="/contact" className="nav-link">Contact</a>
+                <button className="nav-button">Resume</button>
             </div>
+            
         </header>
     </Wrapper>  
     
