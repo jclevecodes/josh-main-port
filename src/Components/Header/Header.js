@@ -15,7 +15,6 @@ function Header() {
                 <a href="/contact" className="nav-link">Contact</a>
                 <button className="nav-button">Resume</button>
             </div>
-            
         </header>
     </Wrapper>  
     
