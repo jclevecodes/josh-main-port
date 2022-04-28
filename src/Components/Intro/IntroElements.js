@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div `
+    margin: 0px auto;
     padding: 0px 150px;
     // max-width: 900px;
     position: absolute;
+    left: 50%;
     justify-content: center;
+    transform: translate(-50%);
+
 
     .intro-heading {
         display: flex;
@@ -20,7 +24,7 @@ export const Wrapper = styled.div `
         display: grid;
         grid-template-columns: 3fr 2fr;
         gap: 50px;
-        max-width: 900px;
+        // max-width: 900px;
     }
 
     .intro-text {
