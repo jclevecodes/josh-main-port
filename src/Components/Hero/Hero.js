@@ -1,5 +1,5 @@
-import "./HeroElement";
-import { Wrapper } from './HeroElement';
+import "./HeroElements";
+import { Wrapper } from './HeroElements';
 
 function Hero() {
   return (

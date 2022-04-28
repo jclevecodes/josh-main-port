@@ -14,7 +14,8 @@ export const Wrapper = styled.div `
         align-items: center;
     }
 
-    .header-logo a{
+    .header-logo {
+        color: black;
         text-decoration: none;
     }
 
@@ -32,11 +33,12 @@ export const Wrapper = styled.div `
         line-height: 30px;
         font-weight: 600;
         text-decoration: none;
+        color: black;
     }
 
     .nav-button {
         font-size: 16px;
-        color: green;
+        color: black;
         background-color: transparent;
         padding: 0.5rem 1rem;
         border: 2px solid black;
